@@ -7,4 +7,7 @@ RUN npm install
 
 # Add your source files
 COPY . .
+
+EXPOSE 80
+
 CMD ["npm","start"]
